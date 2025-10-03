@@ -30,7 +30,7 @@
         const $testimonialPrev = $('#testimonial-prev');
         const $testimonialNext = $('#testimonial-next');
         const $orderForm = $('#order form');
-        const $newsletterForm = $('#contact form[aria-label="Subscribe for updates"]');
+        const $newsletterForm = $('#contact form[aria-label="Đăng ký nhận cập nhật"]');
 
         $('#current-year').text(new Date().getFullYear());
 
@@ -96,7 +96,7 @@
         $('.js-product-details').on('click', function () {
             const $button = $(this);
             openModal({
-                name: $button.data('name') || 'Juice',
+                name: $button.data('name') || 'Nước ép',
                 price: $button.data('price') || '',
                 description: $button.data('description') || '',
                 highlights: ($button.data('highlights') || '').split('|'),
@@ -201,14 +201,14 @@
         if ($orderForm.length) {
             const $feedback = $('<p />', {
                 class: 'order-feedback hidden',
-                text: 'Thanks! We have your request and will reach out shortly.',
+                text: 'Đã nhận được yêu cầu! Team sẽ liên hệ ngay.',
             });
             $orderForm.append($feedback);
 
             $orderForm.on('submit', function (event) {
                 event.preventDefault();
-                const name = ($('#order-name').val() || 'friend').trim();
-                $feedback.text(`Cảm ơn ${name}! Your juicy order is on our radar.`);
+                const name = ($('#order-name').val() || 'bạn').trim();
+                $feedback.text(`Cảm ơn ${name}! Đơn juicy của bạn đã được ghi nhận.`);
                 $feedback.removeClass('hidden').addClass('is-visible');
                 window.setTimeout(function () {
                     $feedback.removeClass('is-visible').addClass('hidden');
@@ -220,7 +220,7 @@
         if ($newsletterForm.length) {
             const $feedback = $('<p />', {
                 class: 'newsletter-feedback hidden',
-                text: 'Welcome to the juice list! Expect fresh drops soon.',
+                text: 'Chào mừng đến danh sách juicy! Hương vị mới sẽ sớm cập bến.',
             });
             $newsletterForm.after($feedback);
 
