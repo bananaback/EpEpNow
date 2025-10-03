@@ -1,0 +1,19 @@
+{
+  "name": "epepnow",
+  "version": "1.0.0",
+  "description": "A vibrant, gradient-forward landing page for the Ép Ép Now cold-pressed juice bar. The design leans on Tailwind CSS utility classes, custom CSS accents, and a pinch of jQuery to deliver a playful, modern, and image-light experience.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./src/tailwind.css -o ./assets/css/tailwind.css --minify",
+    "dev": "tailwindcss -i ./src/tailwind.css -o ./assets/css/tailwind.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.13"
+  }
+}

@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ép Ép Now – Uống Fresh, Sống Chill</title>
+    <meta name="description"
+        content="Ép Ép Now delivers vibrant, cold-pressed juices that keep you fresh and chill. Explore our bold flavors, brand story, and order online." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@400;500;600&family=Montserrat:wght@600;700;800&family=Poppins:wght@600;700;800&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/tailwind.css" />
+    <link rel="stylesheet" href="assets/css/custom.css" />
+</head>
+
+<body class="font-body bg-cream text-slateDeep antialiased">
+    <header id="home" class="relative overflow-hidden">
+        <div class="hero-blob hero-blob--one" aria-hidden="true"></div>
+        <div class="hero-blob hero-blob--two" aria-hidden="true"></div>
+        <div class="hero-blob hero-blob--three" aria-hidden="true"></div>
+        <div
+            class="absolute inset-x-0 top-0 h-full bg-gradient-to-r from-limeJuice via-orangeSplash to-pinkFizz opacity-90">
+        </div>
+        <div class="relative z-10 max-w-6xl mx-auto px-6 py-10 lg:py-16">
+            <nav class="flex items-center justify-between text-slateDeep">
+                <a href="#home" class="group inline-flex items-center space-x-2">
+                    <span
+                        class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/80 text-lg font-semibold uppercase tracking-wide text-orangeSplash shadow-soft transition-transform duration-300 group-hover:scale-110">
+                        É
+                    </span>
+                    <span class="text-lg font-heading font-semibold uppercase tracking-[0.2em]">Ép Ép Now</span>
+                </a>
+                <button
+                    class="inline-flex items-center justify-center rounded-full border border-white/60 px-4 py-2 text-sm font-medium uppercase tracking-wide text-white transition duration-300 ease-in-out focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-orangeSplash hover:bg-white/20 lg:hidden"
+                    id="mobile-nav-toggle" aria-expanded="false" aria-controls="mobile-nav">
+                    Menu
+                </button>
+                <div class="hidden items-center space-x-6 text-sm font-medium uppercase tracking-wide lg:flex">
+                    <a href="#home" class="js-scroll nav-link">Home</a>
+                    <a href="#menu" class="js-scroll nav-link">Menu</a>
+                    <a href="#about" class="js-scroll nav-link">About</a>
+                    <a href="#order" class="js-scroll nav-link">Order</a>
+                    <a href="#contact" class="js-scroll nav-link">Contact</a>
+                </div>
+            </nav>
+            <div id="mobile-nav"
+                class="mt-6 hidden flex-col space-y-3 rounded-3xl bg-white/10 p-6 text-sm font-medium uppercase tracking-wide text-white backdrop-blur-lg lg:hidden">
+                <a href="#home" class="js-scroll nav-link">Home</a>
+                <a href="#menu" class="js-scroll nav-link">Menu</a>
+                <a href="#about" class="js-scroll nav-link">About</a>
+                <a href="#order" class="js-scroll nav-link">Order</a>
+                <a href="#contact" class="js-scroll nav-link">Contact</a>
+            </div>
+            <div class="mt-16 grid items-center gap-10 lg:grid-cols-[1.05fr_0.95fr]">
+                <div>
+                    <p class="text-sm font-semibold uppercase tracking-[0.4em] text-white/70">Juice Bar & Lifestyle</p>
+                    <h1
+                        class="mt-6 font-heading text-5xl font-extrabold leading-tight text-transparent sm:text-6xl lg:text-7xl bg-gradient-to-r from-white via-sunnyGlow to-white bg-clip-text">
+                        Ép Ép Now<br />
+                        <span
+                            class="bg-gradient-to-r from-sunnyGlow via-white to-white bg-clip-text text-transparent">Uống
+                            Fresh, Sống Chill</span>
+                    </h1>
+                    <p class="mt-6 text-base text-white/80 sm:text-lg">
+                        Cold-pressed blends that taste like sunshine, crafted fresh every day to keep you cool,
+                        hydrated, and brimming with good vibes.
+                    </p>
+                    <div class="mt-8 flex flex-wrap items-center gap-4">
+                        <a href="#order"
+                            class="js-scroll inline-flex items-center justify-center rounded-full bg-orangeSplash px-7 py-3 text-sm font-semibold uppercase tracking-wide text-white shadow-float transition-transform duration-300 ease-springy hover:scale-105 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-white/60">
+                            Order Now
+                        </a>
+                        <a href="#menu"
+                            class="js-scroll inline-flex items-center justify-center rounded-full bg-white/20 px-6 py-3 text-sm font-semibold uppercase tracking-wide text-white backdrop-blur transition duration-300 ease-in-out hover:bg-white/30 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-white/50">
+                            Explore Menu
+                        </a>
+                    </div>
+                </div>
+                <div class="relative hidden h-full min-h-[22rem] items-center justify-center lg:flex">
+                    <div class="floating-pill floating-pill--primary"></div>
+                    <div class="floating-pill floating-pill--secondary"></div>
+                    <div class="floating-pill floating-pill--tertiary"></div>
+                    <div class="rounded-[3rem] bg-white/80 p-8 shadow-overlay backdrop-blur">
+                        <div class="flex flex-col gap-4 text-slateDeep">
+                            <span class="text-xs font-semibold uppercase tracking-[0.4em] text-orangeSplash">Daily
+                                Special</span>
+                            <h2 class="font-heading text-3xl font-bold">Tropic Glow</h2>
+                            <p class="text-sm text-slateDeep/70">
+                                Pineapple, mango, lime, and chia sparkle for a tropical hydration hit.
+                            </p>
+                            <div class="flex items-center gap-3">
+                                <span
+                                    class="inline-flex items-center rounded-full bg-cream px-3 py-1 text-xs font-semibold uppercase tracking-wide text-pinkFizz">
+                                    100% Natural
+                                </span>
+                                <span
+                                    class="inline-flex items-center rounded-full bg-sunnyGlow/20 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-orangeSplash">
+                                    Chill Pressed
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="relative overflow-hidden bg-gradient-to-r from-cream via-beige to-cream py-20">
+            <div class="abstract-ring abstract-ring--one" aria-hidden="true"></div>
+            <div class="abstract-ring abstract-ring--two" aria-hidden="true"></div>
+            <div class="relative z-10 mx-auto grid max-w-6xl gap-16 px-6 lg:grid-cols-2">
+                <div class="space-y-6">
+                    <span class="text-sm font-semibold uppercase tracking-[0.4em] text-orangeSplash">Our Story</span>
+                    <h2 class="font-heading text-4xl font-bold text-slateDeep sm:text-5xl">
+                        Crafted with passion, poured with <span
+                            class="bg-gradient-to-r from-orangeSplash via-pinkFizz to-sunnyGlow bg-clip-text text-transparent">pure
+                            freshness</span>
+                    </h2>
+                    <p class="text-base text-slateDeep/80 sm:text-lg">
+                        Ép Ép Now began as a rooftop juice pop-up, where we experimented with bold flavor pairings and
+                        honest ingredients. Today, we cold-press seasonal fruits, herbs, and botanicals into blends that
+                        energize your day without the sugar crash.
+                    </p>
+                    <ul class="grid gap-4 text-sm text-slateDeep/80">
+                        <li class="flex items-start gap-3">
+                            <span
+                                class="mt-1 inline-flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-limeJuice/80 font-semibold text-white">1</span>
+                            <span><strong class="text-slateDeep">Whole, local produce</strong> sourced from trusted
+                                farmers we know by name.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span
+                                class="mt-1 inline-flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-pinkFizz/80 font-semibold text-white">2</span>
+                            <span><strong class="text-slateDeep">Cold-pressed daily</strong> to lock in nutrients,
+                                aromas, and vibrant colors.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span
+                                class="mt-1 inline-flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-orangeSplash/80 font-semibold text-white">3</span>
+                            <span><strong class="text-slateDeep">Zero additives</strong> — just pure fruit, fresh herbs,
+                                and functional add-ons like chia, ginger, and spirulina.</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="relative flex items-center justify-center">
+                    <div class="rounded-[3rem] bg-white/70 p-10 shadow-soft backdrop-blur">
+                        <div class="grid gap-8">
+                            <div class="flex flex-col gap-2">
+                                <span class="text-xs font-semibold uppercase tracking-[0.4em] text-pinkFizz">Vibrant
+                                    Vibes</span>
+                                <p class="text-base text-slateDeep/80">
+                                    We design each blend around flavor, function, and mood, so your sip matches your
+                                    energy.
+                                </p>
+                            </div>
+                            <div class="flex flex-col gap-2">
+                                <span class="text-xs font-semibold uppercase tracking-[0.4em] text-orangeSplash">Playful
+                                    Minimalism</span>
+                                <p class="text-base text-slateDeep/80">
+                                    Gradients, abstract shapes, and typography paint the scene — no heavy photo reliance
+                                    needed.
+                                </p>
+                            </div>
+                            <div class="flex flex-col gap-2">
+                                <span class="text-xs font-semibold uppercase tracking-[0.4em] text-limeJuice">Community
+                                    Roots</span>
+                                <p class="text-base text-slateDeep/80">
+                                    From mindful ingredients to zero-waste bottles, we bring conscious sipping to your
+                                    daily ritual.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="abstract-dot abstract-dot--top" aria-hidden="true"></div>
+                    <div class="abstract-dot abstract-dot--bottom" aria-hidden="true"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="menu" class="relative bg-cream py-20">
+            <div class="absolute inset-x-0 top-0 h-32 bg-gradient-to-b from-pinkFizz/10 to-transparent"
+                aria-hidden="true"></div>
+            <div class="relative mx-auto max-w-6xl px-6">
+                <div class="flex flex-col items-start justify-between gap-6 sm:flex-row sm:items-end">
+                    <div>
+                        <span class="text-sm font-semibold uppercase tracking-[0.4em] text-orangeSplash">Signature
+                            Blends</span>
+                        <h2 class="mt-4 font-heading text-4xl font-bold text-slateDeep sm:text-5xl">Menu Highlights</h2>
+                    </div>
+                    <a href="#order"
+                        class="js-scroll inline-flex items-center justify-center rounded-full border border-orangeSplash/30 px-6 py-3 text-sm font-semibold uppercase tracking-wide text-orangeSplash transition duration-300 hover:bg-orangeSplash hover:text-white">
+                        View Full Menu
+                    </a>
+                </div>
+                <div class="mt-12 grid gap-8 sm:grid-cols-2 xl:grid-cols-3">
+                    <article class="product-card group">
+                        <div class="product-card__glow" aria-hidden="true"></div>
+                        <div class="product-card__badge">Best Seller</div>
+                        <h3 class="product-card__title">Sunrise Squeeze</h3>
+                        <p class="product-card__description">Orange, carrot, ginger, and turmeric for a fiery immunity
+                            kick.</p>
+                        <div class="product-card__meta">
+                            <span class="product-card__price">89.000₫</span>
+                            <button class="product-card__details js-product-details" data-name="Sunrise Squeeze"
+                                data-price="89.000₫"
+                                data-description="Orange, carrot, ginger, and turmeric brighten your morning with anti-inflammatory goodness."
+                                data-highlights="Cold-pressed daily|Anti-inflammatory boost|Packed with beta carotene"
+                                type="button">
+                                View Details
+                            </button>
+                        </div>
+                        <a href="#order" class="product-card__cta js-scroll">Order Now</a>
+                    </article>
+
+                    <article class="product-card group">
+                        <div class="product-card__glow product-card__glow--pink" aria-hidden="true"></div>
+                        <div class="product-card__badge product-card__badge--alt">Seasonal</div>
+                        <h3 class="product-card__title">Berry Breeze</h3>
+                        <p class="product-card__description">Strawberry, watermelon, lime, and mint for a chilled-out
+                            refresh. </p>
+                        <div class="product-card__meta">
+                            <span class="product-card__price">95.000₫</span>
+                            <button class="product-card__details js-product-details" data-name="Berry Breeze"
+                                data-price="95.000₫"
+                                data-description="A sparkling blend of strawberry, watermelon, lime, and mint that keeps you cool and hydrated."
+                                data-highlights="Electrolyte-rich|Naturally sweet|Perfect for sunny afternoons"
+                                type="button">
+                                View Details
+                            </button>
+                        </div>
+                        <a href="#order" class="product-card__cta js-scroll">Order Now</a>
+                    </article>
+
+                    <article class="product-card group">
+                        <div class="product-card__glow product-card__glow--yellow" aria-hidden="true"></div>
+                        <div class="product-card__badge">Fan Favorite</div>
+                        <h3 class="product-card__title">Citrus Spark</h3>
+                        <p class="product-card__description">Grapefruit, lemon, yuzu, and sparkling soda for zesty
+                            effervescence.</p>
+                        <div class="product-card__meta">
+                            <span class="product-card__price">92.000₫</span>
+                            <button class="product-card__details js-product-details" data-name="Citrus Spark"
+                                data-price="92.000₫"
+                                data-description="Grapefruit, lemon, yuzu, and sparkling soda create a bubbly blast of Vitamin C."
+                                data-highlights="Bright citrus notes|Sparkling finish|Metabolism-friendly"
+                                type="button">
+                                View Details
+                            </button>
+                        </div>
+                        <a href="#order" class="product-card__cta js-scroll">Order Now</a>
+                    </article>
+
+                    <article class="product-card group">
+                        <div class="product-card__glow product-card__glow--mint" aria-hidden="true"></div>
+                        <div class="product-card__badge product-card__badge--alt">Limited</div>
+                        <h3 class="product-card__title">Green Revival</h3>
+                        <p class="product-card__description">Kale, spinach, green apple, cucumber, and spirulina
+                            hydration. </p>
+                        <div class="product-card__meta">
+                            <span class="product-card__price">99.000₫</span>
+                            <button class="product-card__details js-product-details" data-name="Green Revival"
+                                data-price="99.000₫"
+                                data-description="Leafy greens, crisp apple, and spirulina deliver a satisfying detox cleanse."
+                                data-highlights="Spirulina boost|Hydrating cucumber|Fresh apple sweetness"
+                                type="button">
+                                View Details
+                            </button>
+                        </div>
+                        <a href="#order" class="product-card__cta js-scroll">Order Now</a>
+                    </article>
+
+                    <article class="product-card group">
+                        <div class="product-card__glow product-card__glow--sunset" aria-hidden="true"></div>
+                        <div class="product-card__badge">New</div>
+                        <h3 class="product-card__title">Mango Glow-Up</h3>
+                        <p class="product-card__description">Mango, passionfruit, coconut water, and chia pearls for
+                            glow. </p>
+                        <div class="product-card__meta">
+                            <span class="product-card__price">105.000₫</span>
+                            <button class="product-card__details js-product-details" data-name="Mango Glow-Up"
+                                data-price="105.000₫"
+                                data-description="Sun-kissed mango and passionfruit balanced with coconut water and chia pearls."
+                                data-highlights="Hydrating coconut|Superfood chia|Vibrant tropical aroma" type="button">
+                                View Details
+                            </button>
+                        </div>
+                        <a href="#order" class="product-card__cta js-scroll">Order Now</a>
+                    </article>
+
+                    <article class="product-card group">
+                        <div class="product-card__glow product-card__glow--hazy" aria-hidden="true"></div>
+                        <div class="product-card__badge product-card__badge--alt">Vegan</div>
+                        <h3 class="product-card__title">Zen Cooler</h3>
+                        <p class="product-card__description">Lychee, pear, jasmine tea, and aloe for a chilled calm.</p>
+                        <div class="product-card__meta">
+                            <span class="product-card__price">97.000₫</span>
+                            <button class="product-card__details js-product-details" data-name="Zen Cooler"
+                                data-price="97.000₫"
+                                data-description="Lychee, pear, jasmine tea, and aloe calm your senses with a silky finish."
+                                data-highlights="Botanical infusion|Stress-soothing|Naturally sweet" type="button">
+                                View Details
+                            </button>
+                        </div>
+                        <a href="#order" class="product-card__cta js-scroll">Order Now</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="freshness"
+            class="relative overflow-hidden bg-gradient-to-r from-orangeSplash/10 via-pinkFizz/10 to-limeJuice/10 py-20">
+            <div class="relative mx-auto max-w-6xl px-6">
+                <div class="mx-auto max-w-2xl text-center">
+                    <span class="text-sm font-semibold uppercase tracking-[0.4em] text-pinkFizz">Why Ép Ép?</span>
+                    <h2 class="mt-4 font-heading text-4xl font-bold text-slateDeep sm:text-5xl">Freshness without
+                        compromise</h2>
+                    <p class="mt-4 text-base text-slateDeep/70">
+                        Thoughtful sourcing, mindful processes, and playful flavor design make every bottle a juicy
+                        ritual.
+                    </p>
+                </div>
+                <div class="mt-14 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+                    <article class="feature-card">
+                        <div class="feature-card__icon" role="img" aria-label="100% natural">
+                            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 24c6 0 10-6 12-9 2 3 6 9 12 9 0 12-8 18-12 20-4-2-12-8-12-20Z"
+                                    fill="url(#grad1)" />
+                                <defs>
+                                    <linearGradient id="grad1" x1="12" y1="24" x2="36" y2="46"
+                                        gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#A3E635" />
+                                        <stop offset="1" stop-color="#FB923C" />
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                        </div>
+                        <h3 class="feature-card__title">100% Natural</h3>
+                        <p class="feature-card__copy">Only whole fruits, herbs, and botanicals. No refined sugar, no
+                            fillers, no stress.</p>
+                    </article>
+                    <article class="feature-card">
+                        <div class="feature-card__icon" role="img" aria-label="Cold-pressed">
+                            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="24" cy="24" r="14" stroke="#F472B6" stroke-width="4" />
+                                <path d="M16 26h16" stroke="#FB923C" stroke-width="4" stroke-linecap="round" />
+                                <path d="M20 32h8" stroke="#FCD34D" stroke-width="4" stroke-linecap="round" />
+                                <path d="M19 10h10l-2-4h-6l-2 4Z" fill="#A3E635" />
+                            </svg>
+                        </div>
+                        <h3 class="feature-card__title">Cold-Pressed</h3>
+                        <p class="feature-card__copy">Hydraulic pressing keeps nutrients intact, so every sip hits
+                            fresher and brighter.</p>
+                    </article>
+                    <article class="feature-card">
+                        <div class="feature-card__icon" role="img" aria-label="Sustainable ritual">
+                            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M24 4v8" stroke="#FB923C" stroke-width="4" stroke-linecap="round" />
+                                <path d="M10 18c5 0 7-6 7-6s2 6 7 6 7-6 7-6 2 6 7 6" stroke="#F472B6" stroke-width="4"
+                                    stroke-linecap="round" />
+                                <path d="m18 32 6 6 6-6" stroke="#A3E635" stroke-width="4" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <h3 class="feature-card__title">Sustainable Ritual</h3>
+                        <p class="feature-card__copy">Reusable bottles, compostable straws, and circular partnerships
+                            keep things planet-kind.</p>
+                    </article>
+                    <article class="feature-card">
+                        <div class="feature-card__icon" role="img" aria-label="Delivery ready">
+                            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="6" y="18" width="36" height="18" rx="6" fill="#FCD34D" />
+                                <path d="M30 12h6a6 6 0 0 1 6 6v6h-12V12Z" fill="#FB923C" />
+                                <circle cx="16" cy="36" r="4" fill="#F472B6" />
+                                <circle cx="32" cy="36" r="4" fill="#FB923C" />
+                            </svg>
+                        </div>
+                        <h3 class="feature-card__title">Delivery Ready</h3>
+                        <p class="feature-card__copy">Order in-app or online. We deliver chilled bottles that stay cool
+                            for hours.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="bg-cream py-20">
+            <div class="mx-auto max-w-6xl px-6">
+                <div class="flex flex-col gap-6 sm:flex-row sm:items-end sm:justify-between">
+                    <div>
+                        <span class="text-sm font-semibold uppercase tracking-[0.4em] text-orangeSplash">Juice
+                            Lovers</span>
+                        <h2 class="mt-4 font-heading text-4xl font-bold text-slateDeep sm:text-5xl">What our community
+                            says</h2>
+                    </div>
+                    <div class="flex gap-3">
+                        <button id="testimonial-prev" class="carousel-control" type="button"
+                            aria-label="Previous testimonial">Prev</button>
+                        <button id="testimonial-next" class="carousel-control" type="button"
+                            aria-label="Next testimonial">Next</button>
+                    </div>
+                </div>
+                <div class="relative mt-12">
+                    <div id="testimonial-carousel" class="relative overflow-hidden">
+                        <article class="testimonial-card" role="tabpanel" aria-hidden="true" data-initials="MT">
+                            <p class="testimonial-card__quote">“The flavors are unreal. Sunrise Squeeze wakes me up
+                                better than coffee and it’s way kinder to my body.”</p>
+                            <div class="testimonial-card__footer">
+                                <div class="testimonial-card__avatar" aria-hidden="true">MT</div>
+                                <div>
+                                    <p class="testimonial-card__name">Minh Trang</p>
+                                    <p class="testimonial-card__role">Yoga instructor</p>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="testimonial-card" role="tabpanel" aria-hidden="true" data-initials="LB">
+                            <p class="testimonial-card__quote">“I love the playful gradients and eco packaging. Mango
+                                Glow-Up is my go-to treat during afternoon slumps.”</p>
+                            <div class="testimonial-card__footer">
+                                <div class="testimonial-card__avatar" aria-hidden="true">LB</div>
+                                <div>
+                                    <p class="testimonial-card__name">Lan Bích</p>
+                                    <p class="testimonial-card__role">Creative producer</p>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="testimonial-card" role="tabpanel" aria-hidden="true" data-initials="QN">
+                            <p class="testimonial-card__quote">“The team nailed the balance between healthy and fun.
+                                Delivery’s always on time, bottles arrive ice cold.”</p>
+                            <div class="testimonial-card__footer">
+                                <div class="testimonial-card__avatar" aria-hidden="true">QN</div>
+                                <div>
+                                    <p class="testimonial-card__name">Quốc Nam</p>
+                                    <p class="testimonial-card__role">Startup founder</p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="mt-8 flex justify-center gap-3" role="tablist" aria-label="Testimonials">
+                        <button class="carousel-dot" data-index="0" aria-label="Show testimonial 1"
+                            aria-selected="false"></button>
+                        <button class="carousel-dot" data-index="1" aria-label="Show testimonial 2"
+                            aria-selected="false"></button>
+                        <button class="carousel-dot" data-index="2" aria-label="Show testimonial 3"
+                            aria-selected="false"></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="order" class="relative overflow-hidden py-20">
+            <div class="order-blob order-blob--one" aria-hidden="true"></div>
+            <div class="order-blob order-blob--two" aria-hidden="true"></div>
+            <div
+                class="relative mx-auto max-w-5xl rounded-[3rem] bg-gradient-to-r from-pinkFizz via-orangeSplash to-limeJuice px-6 py-16 text-white shadow-overlay sm:px-10">
+                <div class="grid gap-12 lg:grid-cols-[1.05fr_0.95fr]">
+                    <div>
+                        <span class="text-sm font-semibold uppercase tracking-[0.4em] text-white/70">Ready to
+                            sip?</span>
+                        <h2 class="mt-4 font-heading text-4xl font-bold leading-tight sm:text-5xl">Order juicy goodness
+                            in under 60 seconds</h2>
+                        <p class="mt-4 text-base text-white/80">
+                            Drop your details and your favorite blend. We’ll confirm instantly and have your bottles
+                            chilled for pickup or delivery.
+                        </p>
+                        <ul class="mt-6 grid gap-4 text-sm text-white/80">
+                            <li class="flex items-center gap-3">
+                                <span
+                                    class="inline-flex h-8 w-8 items-center justify-center rounded-full bg-white/20 text-sm font-semibold">1</span>
+                                Select your blend(s) and preferred sweetness level.
+                            </li>
+                            <li class="flex items-center gap-3">
+                                <span
+                                    class="inline-flex h-8 w-8 items-center justify-center rounded-full bg-white/20 text-sm font-semibold">2</span>
+                                Choose pickup or 1-hour delivery windows.
+                            </li>
+                            <li class="flex items-center gap-3">
+                                <span
+                                    class="inline-flex h-8 w-8 items-center justify-center rounded-full bg-white/20 text-sm font-semibold">3</span>
+                                Pay securely via card, Momo, or cash on arrival.
+                            </li>
+                        </ul>
+                    </div>
+                    <form class="grid gap-4" aria-label="Quick order form">
+                        <div class="grid gap-2">
+                            <label for="order-name" class="text-sm font-semibold uppercase tracking-wide">Name</label>
+                            <input id="order-name" name="name" type="text" required class="order-input"
+                                placeholder="Your full name" />
+                        </div>
+                        <div class="grid gap-2">
+                            <label for="order-email" class="text-sm font-semibold uppercase tracking-wide">Email</label>
+                            <input id="order-email" name="email" type="email" required class="order-input"
+                                placeholder="you@email.com" />
+                        </div>
+                        <div class="grid gap-2">
+                            <label for="order-flavor" class="text-sm font-semibold uppercase tracking-wide">Favorite
+                                Juice</label>
+                            <select id="order-flavor" name="flavor" class="order-input" required>
+                                <option value="" disabled selected>Select a signature blend</option>
+                                <option>Sunrise Squeeze</option>
+                                <option>Berry Breeze</option>
+                                <option>Citrus Spark</option>
+                                <option>Green Revival</option>
+                                <option>Mango Glow-Up</option>
+                                <option>Zen Cooler</option>
+                            </select>
+                        </div>
+                        <div class="grid gap-2">
+                            <label for="order-notes" class="text-sm font-semibold uppercase tracking-wide">Notes</label>
+                            <textarea id="order-notes" name="notes" rows="3" class="order-input"
+                                placeholder="Add pickup time, delivery address, or sweetness preferences"></textarea>
+                        </div>
+                        <div class="flex flex-wrap items-center gap-4">
+                            <button type="submit" class="order-submit">
+                                Submit Order Request
+                            </button>
+                            <span class="text-sm text-white/70">We respond within 10 minutes during open hours.</span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact" class="bg-slateDeep py-14 text-white">
+        <div class="mx-auto max-w-6xl px-6">
+            <div class="grid gap-12 md:grid-cols-[1.2fr_0.8fr_0.8fr]">
+                <div class="space-y-6">
+                    <div class="inline-flex items-center space-x-3">
+                        <span
+                            class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-orangeSplash text-lg font-semibold uppercase tracking-wide">
+                            É
+                        </span>
+                        <div>
+                            <p class="font-heading text-lg font-semibold uppercase tracking-[0.3em]">Ép Ép Now</p>
+                            <p class="text-xs uppercase tracking-[0.4em] text-white/60">Fresh Press Collective</p>
+                        </div>
+                    </div>
+                    <p class="max-w-md text-sm text-white/70">
+                        25 Nguyễn Trãi, District 1, HCMC · Open daily 8am – 9pm · hello@epepnow.vn · 090 1234 567
+                    </p>
+                    <div class="flex gap-3">
+                        <a href="https://www.instagram.com" class="social-link" aria-label="Instagram">
+                            <span
+                                class="bg-gradient-to-r from-orangeSplash via-pinkFizz to-sunnyGlow bg-clip-text text-transparent">IG</span>
+                        </a>
+                        <a href="https://www.facebook.com" class="social-link" aria-label="Facebook">
+                            <span
+                                class="bg-gradient-to-r from-sunnyGlow via-limeJuice to-pinkFizz bg-clip-text text-transparent">FB</span>
+                        </a>
+                        <a href="https://www.tiktok.com" class="social-link" aria-label="TikTok">
+                            <span
+                                class="bg-gradient-to-r from-pinkFizz via-orangeSplash to-limeJuice bg-clip-text text-transparent">TT</span>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <p class="text-xs font-semibold uppercase tracking-[0.4em] text-white/50">Navigate</p>
+                    <ul class="mt-4 space-y-3 text-sm">
+                        <li><a href="#home" class="js-scroll footer-link">Home</a></li>
+                        <li><a href="#menu" class="js-scroll footer-link">Menu</a></li>
+                        <li><a href="#about" class="js-scroll footer-link">About</a></li>
+                        <li><a href="#order" class="js-scroll footer-link">Order</a></li>
+                        <li><a href="#contact" class="js-scroll footer-link">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <p class="text-xs font-semibold uppercase tracking-[0.4em] text-white/50">Stay Juicy</p>
+                    <p class="mt-4 text-sm text-white/70">Subscribe for seasonal drops, collabs, and tasting events.</p>
+                    <form class="mt-4 flex gap-3" aria-label="Subscribe for updates">
+                        <label for="newsletter-email" class="sr-only">Email address</label>
+                        <input id="newsletter-email" type="email" required class="newsletter-input"
+                            placeholder="you@email.com" />
+                        <button type="submit" class="newsletter-submit">Join</button>
+                    </form>
+                </div>
+            </div>
+            <div class="mt-10 border-t border-white/10 pt-6 text-xs text-white/50">
+                © <span id="current-year"></span> Ép Ép Now. Crafted with juicy love in Saigon.
+            </div>
+        </div>
+    </footer>
+
+    <div id="product-modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title"
+        aria-hidden="true">
+        <div class="modal__backdrop" data-modal-close></div>
+        <div class="modal__panel">
+            <div class="flex items-start justify-between gap-4">
+                <div>
+                    <h3 id="modal-title" class="modal__title">Juice Name</h3>
+                    <p id="modal-price" class="modal__price">--</p>
+                </div>
+                <button id="modal-close" type="button" class="modal__close" aria-label="Close product details">
+                    ×
+                </button>
+            </div>
+            <p id="modal-description" class="modal__description">Description</p>
+            <ul id="modal-highlights" class="modal__list"></ul>
+            <div class="mt-6 flex items-center gap-4">
+                <a href="#order" class="order-link js-scroll" data-modal-close>Order this blend</a>
+                <button type="button" class="modal__secondary" data-modal-close>Close</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
